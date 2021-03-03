@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regressionTest">
+<test name="LoginTest">
+<parameter name = "username" value="demo@techfios.com"></parameter>
+<parameter name = "password" value="abc123"></parameter>
+<parameter name = "FullName" value="Microsoft Excell"></parameter>
+<parameter name = "Company Name" value="Techfios"></parameter>
+<parameter name = "Email" value="msexcell@gmail.com"></parameter>
+<parameter name = "Phone" value="a231546"></parameter>
+<parameter name = "Address" value="Techfios Building"></parameter>
+<parameter name = "City" value="Carrolton"></parameter>
+<parameter name = "State" value="TX"></parameter>
+<parameter name = "Zip" value="TX"></parameter>
+
+
+<classes>
+<class name ="test.LoginTest"/>
+<class name ="test.AddCustomerTest"/>
+
+
+</classes>
+
+
+
+
+</test>
+
+
+
+</suite>
